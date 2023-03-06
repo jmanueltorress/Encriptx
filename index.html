@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Encriptx</title>
+</head>
+
+<body>
+    <header >
+       
+        <div class="imglogo"> <img src="./assets/img/logoAlura.png" alt="logotype-alura"></div>
+       
+
+        <h1 class="titulo">ENCRIPTADOR DE TEXTO</h1>
+
+        
+        
+    </header>
+    <section class="banner">
+        <div class="content2">Escribe tu texto!</div>
+        <div class="content"> Solo letras minusculas y sin acentos</div>
+       
+    </section>
+    
+    </div>
+    
+    <main>
+        
+        <section class="contenedor-msj" style="display:flex; ">
+            
+            <textarea name="ingresarTexto" class="input-texto" placeholder="Ingrese el Texto aqui"></textarea>
+     
+        
+        
+            <textarea name="TextoSalida" class="mensaje" id="txtOut" placeholder="Output"></textarea>
+            <button class="copiar" onclick="copiar()">Copy Output</button>
+
+            <div id="buttons">
+
+                <a class="bn-1" onclick="btnEncriptar()">
+                    ENCRIPTAR
+                </a>
+    
+                <a class="bn-2" onclick="btnDesencriptar()">
+                    DESENCRIPTAR
+                </a>
+    
+                
+            </div>
+           
+        </section>
+
+        
+    </main>
+
+    <!-- 
+
+    <section>
+        <div class="contOutput">
+        <div class="imgSearch">
+            <img src="/challenge-1-logica/assets/img/searching.png" alt="buscando">
+        </div>
+        <h2>Ningún mensaje fue encontrado</h2>
+        <h3>Ingresa el texto que desees encriptar</h3>
+    </div>
+    </section>-->
+
+
+
+    <footer style="width: 100%;">
+
+        <h5>@ONE challenge: challenge-1-logica: Encriptador</h5>
+        <br>
+        <h5> By Juan manuel Torres Servín</h5>
+    </footer>
+    <script src="./javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setTimeout(function () {
+                $(".content").fadeOut(1500);
+            }, 3000);
+
+            setTimeout(function () {
+                $(".content2").fadeIn(1500);
+            }, 6000);
+        });
+    </script>
+</body>
+
+
+</html>
