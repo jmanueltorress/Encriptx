@@ -1,11 +1,11 @@
 # Encriptx 
 **Sitio para encriptar un mensaje con caracteres añadidos**
 
-/*![Demo](/ruta/a/la/imagen.jpg "Demo")*/
+/*![Demo](https://github.com/jmanueltorress/Encriptx/blob/main/assets/img/demo.png "Demo")*/
 
 
 ###### Encriptara texto a caracteres especificos los cuales son:  "e: enter", "i: imes", "a: ai", "o: ober","u: ufat" ######
-/*![Demo](/ruta/a/la/imagen.jpg "Demo")*/
+/*![Demo](https://github.com/jmanueltorress/Encriptx/blob/main/assets/img/demo2.png "Demo")*/
 
 _Java Scrtipt_
 **Encriptar:**
