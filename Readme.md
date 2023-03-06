@@ -1,12 +1,15 @@
 # Encriptx 
 **Sitio para encriptar un mensaje con caracteres añadidos**
 
+/*![Demo](/ruta/a/la/imagen.jpg "Demo")*/
 
 
 ###### Encriptara texto a caracteres especificos los cuales son:  "e: enter", "i: imes", "a: ai", "o: ober","u: ufat" ######
+/*![Demo](/ruta/a/la/imagen.jpg "Demo")*/
 
 _Java Scrtipt_
 **Encriptar:**
+
 
 ` function encriptar(stringEncriptada) {
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o","ober"], ["u","ufat"]];
